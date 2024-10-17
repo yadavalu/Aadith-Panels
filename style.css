@@ -3,7 +3,7 @@
 * {
   box-sizing: border-box;
   padding: 0;
-  margin: 0;
+  margin: 2;
 }
 
 body {
@@ -38,14 +38,12 @@ p {
 }
 
 h1 {
-  /*color: rgba(192, 192, 192, 0.9);*/
   font-size: 40pt;
 }
 
 h2 {
   color: #3d2c0c;
   font-size: 20pt;
-  text-align: left;
 }
 
 h3 {

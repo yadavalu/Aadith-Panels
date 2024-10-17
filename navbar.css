@@ -1,10 +1,10 @@
 .navbar {
-  background-color: #fff8f8;
-  height: 70px;
+  background-color: #37ff3d;
+  height: 100px;
 }
 
 .container {
-  max-width: 1000px;
+  max-width: 1750px;
   margin: auto;
   overflow: auto;
   padding: auto;
