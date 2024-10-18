@@ -3,7 +3,7 @@
   height: 100px;
 }
 
-.container {
+.navcontainer {
   max-width: 1750px;
   margin: auto;
   overflow: auto;
@@ -24,7 +24,7 @@
   display: flex;
 }  
 
-.navbar a
+a
 {
   float: left;
   text-align: center;
@@ -33,7 +33,7 @@
   font-size: 17px;
 }
 
-.navbar a::after
+a::after
 {
   content: "";
   width: 0%;
@@ -44,22 +44,22 @@
   transition: 0.5s;
 }
 
-.navbar a:hover::after
+a:hover::after
 {
   width: 100%;
 }
 
-.navbar a.active::after
+a.active::after
 {
   width: 100%;
 }
 
-.navbar a.home
+a.home
 {
   background-color: rgb(255, 145, 0); 
 }
 
-.navbar a.home-active
+a.home-active
 {
   background-color: #F0E0FF; 
 }

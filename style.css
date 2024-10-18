@@ -10,6 +10,14 @@ body {
   font-family: 'IBM Plex Serif', serif;
   color: #35014F;
   line-height: 1.6;
+  min-height: 100%;
+}
+
+.container {
+  margin: 10px;
+  background-color: #e9e6e6;
+  display: inline-block;
+  width: 99%;
 }
 
 ul {
