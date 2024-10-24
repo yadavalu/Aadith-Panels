@@ -7,7 +7,17 @@ const no_of_panels = document.getElementById('no_panels');
       datasets: [{
         label: 'Number of panels',
         data: [44, 14, 3],
-        borderWidth: 1
+        borderWidth: 1,
+        backgroundColor: [
+            'rgba(255, 99, 132, 0.5)',
+            'rgba(54, 162, 235, 0.5)',
+            'rgba(75, 192, 192, 0.5)',
+        ],
+        borderColor: [
+            'rgba(255, 99, 132, 1)',
+            'rgba(54, 162, 235, 1)',
+            'rgba(75, 192, 192, 1)',
+        ],
       }]
     },
   });
@@ -21,7 +31,17 @@ const power_output = document.getElementById('power_output');
       datasets: [{
         label: 'Approx Maximum Power Output [Watts]',
         data: [18000, 5800, 1250],
-        borderWidth: 1
+        borderWidth: 1,
+        backgroundColor: [
+            'rgba(255, 99, 132, 0.5)',
+            'rgba(54, 162, 235, 0.5)',
+            'rgba(75, 192, 192, 0.5)',
+        ],
+        borderColor: [
+            'rgba(255, 99, 132, 1)',
+            'rgba(54, 162, 235, 1)',
+            'rgba(75, 192, 192, 1)',
+        ],
       }]
     },
     
