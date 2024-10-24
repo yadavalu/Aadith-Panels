@@ -8,9 +8,29 @@
 
 body {
   font-family: 'IBM Plex Serif', serif;
-  color: #35014F;
+  color: #20002fee;
   line-height: 1.6;
   min-height: 100%;
+}
+
+.hero {
+  background-color: #20002fee;
+}
+
+.icon {
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.title {
+  color: #fff;
+}
+
+.heading {
+  color: #e9e6e6;
 }
 
 .container {

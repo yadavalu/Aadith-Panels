@@ -1,6 +1,5 @@
 .navbar {
-  /*#fcf5eb #37ff3daa*/
-  background-image: linear-gradient(to right, #37ff3daa 0%, #fcf5ebff 100%);
+  background-color: #20002fee;
   height: 100px;
   width: 100%;
   position: sticky;
@@ -14,8 +13,7 @@
   border-radius: 10px;
   --c1: #f6d365;
   --c2: #fda085;
-  /*background: linear-gradient(90deg, var(--c1, #f6d365), var(--c2, #fda085) 51%, var(--c1, #f6d365)) var(--x, 0)/ 200%;*/
-  background: linear-gradient(90deg, #35014F, #e07517 51%, #35014F) var(--x, 0)/ 200%;
+  background: linear-gradient(90deg, #5e018c, #e07517 51%, #5e018c) var(--x, 0)/ 200%;
   color: transparent;
   background-clip: text;
   -moz-background-clip: text;
@@ -27,43 +25,6 @@
   --x: 100%; 
 }
 
-
-/*
-.logo::after
-{
-  content: "";
-  width: 0%;
-  height: 2px;
-  background: #430400;
-  background-color: #35014F;
-  background-image: linear-gradient(to right, #35014F 0%, #ae501e 100%);
-  -moz-background-clip: text;
-  -webkit-background-clip: text;
-  display: block;
-  margin: auto;
-  transition: 0.5s;
-}
-
-.logo:hover::after
-{
-  width: 100%;
-}
-
-.logo.active::after
-{
-  width: 100%;
-}
-
-.logo.home
-{
-  background-color: rgb(255, 145, 0); 
-}
-
-.logo.home-active
-{
-  background-color: #F0E0FF; 
-}
-*/
 .navcontainer {
   max-width: 1750px;
   margin: auto;
