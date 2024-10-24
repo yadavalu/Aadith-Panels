@@ -1,0 +1,19 @@
+.statcontainer {
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    background-color: #e9e6e6;
+    display: flex;
+    width: 99%;
+}
+
+.stats {
+    margin: 10px;
+    gap: 200px;
+    max-width: 500px;
+    padding: 2rem;
+    border: 1px solid #f49131;
+    border-radius: 1rem;
+    background: #1e002d;
+    box-shadow: 0 0 16px #000000aa;
+}

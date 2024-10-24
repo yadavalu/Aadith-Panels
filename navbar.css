@@ -12,16 +12,21 @@
   width: 350px;
   height: 80px;
   border-radius: 10px;
-  background: linear-gradient(265.27deg, #0000 20.55%, #00F27E 94.17%);  /*Change me*/
-  background-color: #00F27E; /*FIXME*/
-  background-clip: text; /*FIXME*/
+  --c1: #f6d365;
+  --c2: #fda085;
+  /*background: linear-gradient(90deg, var(--c1, #f6d365), var(--c2, #fda085) 51%, var(--c1, #f6d365)) var(--x, 0)/ 200%;*/
+  background: linear-gradient(90deg, #35014F, #e07517 51%, #35014F) var(--x, 0)/ 200%;
+  color: transparent;
+  background-clip: text;
   -moz-background-clip: text;
+  -webkit-background-clip: text;
   transition: all 400ms ease-in;
 }
 
-.logo:hover {
-  background-color: #00FFE0;
+.logo:hover { 
+  --x: 100%; 
 }
+
 
 /*
 .logo::after

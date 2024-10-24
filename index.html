@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="stats.css">
     <title>Aadith Panels</title>
 </head>
 <body>
@@ -28,7 +29,14 @@
         We are a group of students in Berlin, offering to propose solar panel systems designs in various locations around the world, including Berlin, Chennai and Johannesburg. In addition, we install our solar panels system design for contracts within Berlin. We are a small contractor, providing design plans to both individuals and companies based off of the situation to majorly simplify the planning of the installation. Thereby, we both save you time and arrange a reliable solution for you to embark on your endeavour into sustainability.
     </p>
     
+    <div class="statcontainer">
+        <div class="stats">
+            <canvas id="no_panels" width="400" height="400"></canvas>            
+        </div>
+    </div>
+
     <br/>
+
     <div class="container"> <h2>Project Map</h2>
         <p>Our completed projects are mapped on our project map.</p>
         <iframe src="https://www.google.com/maps/d/u/1/embed?mid=1tnztJ5D72qFVBaPsxcOd9CQZfD6azFU&ehbc=2E312F" width="640" height="480"></iframe>
@@ -36,12 +44,13 @@
 
     <br/>
 
-    
-
     <h2>Contacts</h2>
     <a href="https://www.linkedin.com/company/aadith-panels" class="udrl_anim">LinkedIn</a>
     <br/>   
     <a href="mailto:g.aadithyadav@gmail.com" class="udrl_anim">g.aadithyadav@gmail.com</a>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="stats.js"></script>
 
 </body>
 </html>
