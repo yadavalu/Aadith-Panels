@@ -11,7 +11,7 @@ Number of panels: 47 (more, still have to add SA)
 Total solar power: 17,000 W (more, still have to add SA)
 
 Hours of designing: 20 hrs (more, still have to add SA)
-
+D
 Team size: 8 members
 
 Fixed design service cost: $50

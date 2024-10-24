@@ -41,6 +41,15 @@ h1, h2 {
   margin: 10px 0;
 }
 
+h1 {
+  background-color: #f44336;
+  background-image: linear-gradient(to right, #35014F 0%, rgb(215, 125, 0) 100%);
+  background-size: 100%;
+  display: flex;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+}
+
 p {
   margin: 10px 0;
 }
