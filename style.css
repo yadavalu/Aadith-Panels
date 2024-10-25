@@ -47,7 +47,6 @@ body {
   object-fit: cover;
   grid-column-start: 2;
   grid-row-start: 2;
-  display: grid;
 }
 
 .scrollicon span {
@@ -62,11 +61,10 @@ body {
 
 .scrollicon span:nth-child(1) {
   animation-delay: -0.2s;
-  grid-row: 1;
 }
 .scrollicon span:nth-child(2) {
-  grid-row: 2; /*To Fix*/
-  /*margin: -20px*/
+  /*To fix for resize*/
+  margin-top: -40px;
 }
 
 @keyframes animate {
