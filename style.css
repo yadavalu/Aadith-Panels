@@ -1,43 +1,90 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 * {
-  box-sizing: border-box;
+  margin: 0;
   padding: 0;
-  margin: 2;
 }
 
 body {
   font-family: 'IBM Plex Serif', serif;
-  color: #20002fee;
   line-height: 1.6;
   min-height: 100%;
 }
 
 .hero {
-  background-color: #20002fee;
+  background-color: #181530;
+  height: 100%;
+  display: grid;
+  margin: 0;
 }
 
 .icon {
-  display: flex;
-  align-items: right;
-  justify-content: right;
   max-width: 100%;
   object-fit: cover;
+  grid-column-start: 1;
+  grid-row-start: 3;
 }
 
 .title {
   color: #fff;
+  text-wrap: wrap;
+  grid-column-start: 1;
+  grid-row-start: 2;
 }
 
 .heading {
   color: #e9e6e6;
+  grid-column-start: 1;
+  grid-row-start: 3;
+}
+
+.herogrid {
+  display: inline-grid;
+  column-gap: 20px;
+}
+
+.scrollicon {
+  object-fit: cover;
+  grid-column-start: 2;
+  grid-row-start: 2;
+  display: grid;
+}
+
+.scrollicon span {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
+  transform: rotate(45deg);
+  animation: animate 2s infinite;
+}
+
+.scrollicon span:nth-child(1) {
+  animation-delay: -0.2s;
+  grid-row: 1;
+}
+.scrollicon span:nth-child(2) {
+  grid-row: 2; /*To Fix*/
+  /*margin: -20px*/
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 .container {
-  margin: 10px;
   background-color: #e9e6e6;
   display: inline-block;
-  width: 99%;
+  width: 100%;
 }
 
 ul {

@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #20002fee;
+  background-color: #0b0b17dd;
   height: 100px;
   width: 100%;
   position: sticky;
@@ -11,8 +11,6 @@
   width: 350px;
   height: 80px;
   border-radius: 10px;
-  --c1: #f6d365;
-  --c2: #fda085;
   background: linear-gradient(90deg, #5e018c, #e07517 51%, #5e018c) var(--x, 0)/ 200%;
   color: transparent;
   background-clip: text;
