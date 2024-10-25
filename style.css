@@ -117,6 +117,7 @@ h1 {
   background-image: linear-gradient(to right, #35014F 0%, rgb(215, 125, 0) 100%);
   background-size: 100%;
   display: flex;
+  background-clip: text;
   -moz-background-clip: text;
   -webkit-background-clip: text;
 }
